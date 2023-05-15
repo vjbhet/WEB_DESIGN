@@ -1,5 +1,36 @@
-form { 
+body { 
+    font-family:'Courier New', Courier, monospace;
+    color: white; 
+    background-color: #003300;
+}
+h1 { 
+    text-align: center;
+}
+#description { 
+    text-align: center;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-radius: 0 px;
+    padding: 10px; 
+}
+
+form {
+    margin: auto; 
     width: 200px; 
     max-width: 500px;
     text-align: center; 
+  
+  }
+  fieldset { 
+    font-family: 'Courier New', Courier, monospace; 
+    border-style: none;
+  }
+
+  input[type=text], input[type=number], input[type=email]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
   }
