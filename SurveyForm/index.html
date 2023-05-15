@@ -17,7 +17,7 @@
         life youve always wanted.
     </p>
     <form id="survey-form">
-        <fieldset>
+        <fieldset id="about-you">
             <label for="name" id="name-label" placeholder="John">
                 First Name <input id="name" type="text" name="first-name" required/> 
             </label>
@@ -30,6 +30,16 @@
             <label for="number" id ="number-label">
                 Age <input id="number" type="number" name="age" min="16" max="99"/> 
             </label>
+        </fieldset>
+        <fieldset id="questions">
+            <h2>How comfortable are you with coding?</h2>
+            <select id="dropdown"> How comfortable are you with coding? 
+                <option value="0"></option>
+                <option value="1">wtf is coding?</option>
+                <option value="2">Meh</option>
+                <option value="3">Filty casual</option>
+                <option value="4">nasty wit it</option>
+            </select>
         </fieldset>
     </form>
 </body>

@@ -6,6 +6,8 @@ body {
 h1 { 
     text-align: center;
 }
+
+
 #description { 
     text-align: center;
     border-left-style: dashed;
@@ -20,16 +22,28 @@ form {
     text-align: center; 
   
   }
+  h2 { 
+    
+    margin-top: 50 px;
+    margin-bottom: 10px;
+    font-size: 35 px;
+    padding: 50 px;
+    max-width: 200px;
+    margin-left: -150px;
+   white-space: nowrap;
+
+  
+}
   fieldset { 
-    font-family: 'Courier New', Courier, monospace; 
     border-style: none;
   }
 
-  input[type=text], input[type=number], input[type=email]{
+  input[type=text], input[type=number], input[type=email], select{
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
   }
